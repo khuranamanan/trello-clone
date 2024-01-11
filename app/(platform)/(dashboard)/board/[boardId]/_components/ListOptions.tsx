@@ -101,7 +101,7 @@ function ListOptions({ data, onAddCard }: ListOptionsProps) {
           <input hidden name="boardId" id="boardId" value={data.boardId} />
           <FormSubmit
             variant="ghost"
-            className="rounded-none w-full h-auto p-2 px-5 justify-start font-normal text-sm text-red-500"
+            className="rounded-none w-full h-auto p-2 px-5 justify-start font-normal text-sm text-red-500 hover:text-red-600"
           >
             Delete this list
           </FormSubmit>
